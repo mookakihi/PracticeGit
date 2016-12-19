@@ -17,7 +17,7 @@ class thread1 extends Thread{
 	public void run(){
 		for(int i=0;i<10;i++){
 		System.out.println(getName()+":"+i+1);
-		System.out.println("1");
+		System.out.println("10010");
 		}
 	}
 }
