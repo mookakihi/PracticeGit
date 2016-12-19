@@ -3,7 +3,6 @@ INDEX VERSION 1.129+C:\Users\HOME\Desktop\PracticeGit\.metadata\.plugins\org.ecl
 188619105.index
 2312443017.index
 3256285438.index
-2628215972.index
 3878457715.index
 1904741536.index
 3681335767.index
