@@ -1,0 +1,30 @@
+package threadpackage;
+
+public class th1 {
+	public static void main(String[] args){
+		thread2 t1=new thread2();
+		Thread t=new Thread(t1);
+		
+		thread1 t2=new thread1();
+		t.start();
+		t2.start();
+		
+	
+	}
+}
+
+class thread1 extends Thread{
+	public void run(){
+		for(int i=0;i<10;i++){
+		System.out.println(getName()+":"+i+1);
+		}
+	}
+}
+
+class thread2 implements Runnable{
+	public void run(){
+		for(int i=20;i<30;i++){
+			System.out.println(Thread.currentThread().getName()+":"+i);
+		}
+	}
+}
