@@ -544,7 +544,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jQRCBcWpEeaT_KTsFd-16g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_fcXEMMXJEeaNeO2xMxJo-g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_jQXJqsWpEeaT_KTsFd-16g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_lV_fIMXLEea3teiWCRX-DA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_jQXJqsWpEeaT_KTsFd-16g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jQRCEsWpEeaT_KTsFd-16g" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -583,7 +583,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jQRoiMWpEeaT_KTsFd-16g" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_fcg1MMXJEeaNeO2xMxJo-g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_jQXJTcWpEeaT_KTsFd-16g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_lWE-sMXLEea3teiWCRX-DA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_jQXJTcWpEeaT_KTsFd-16g"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jQRok8WpEeaT_KTsFd-16g" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1942,6 +1942,14 @@
     <tags>menuContribution:popup</tags>
   </menuContributions>
   <menuContributions xmi:id="_hNEM0MXJEeaNeO2xMxJo-g" elementId="com.codetrails.codesearch.rcp:448064530" positionInParent="before=group.copy" parentId="#ClassFileEditorContext">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_m5YkgMXLEea3teiWCRX-DA" elementId="com.codetrails.codesearch.rcp:341324585" positionInParent="before=group.copy" parentId="#CompilationUnitEditorContext">
+    <tags>scheme:popup</tags>
+    <tags>menuContribution:popup</tags>
+  </menuContributions>
+  <menuContributions xmi:id="_m5ZLkMXLEea3teiWCRX-DA" elementId="com.codetrails.codesearch.rcp:2103892691" positionInParent="before=group.copy" parentId="#ClassFileEditorContext">
     <tags>scheme:popup</tags>
     <tags>menuContribution:popup</tags>
   </menuContributions>
